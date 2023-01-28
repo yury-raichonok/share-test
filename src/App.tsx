@@ -1,5 +1,12 @@
 import React from 'react';
+import { MemoryRouter } from 'react-router-dom';
+
+import { Page } from './pages';
 
 export const App = () => {
-  return <div>Hello!!!!!</div>;
+  return (
+    <MemoryRouter>
+      <Page />
+    </MemoryRouter>
+  );
 };

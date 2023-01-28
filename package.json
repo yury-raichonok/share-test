@@ -25,6 +25,7 @@
     "@electron-forge/maker-zip": "^6.0.4",
     "@electron-forge/plugin-webpack": "^6.0.4",
     "@types/react": "^18.0.26",
+    "@types/styled-components": "^5.1.26",
     "@typescript-eslint/eslint-plugin": "^5.48.1",
     "@typescript-eslint/parser": "^5.48.1",
     "@vercel/webpack-asset-relocator-loader": "^1.7.3",
@@ -43,6 +44,8 @@
     "@types/react-dom": "^18.0.10",
     "electron-squirrel-startup": "^1.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.6.2",
+    "styled-components": "^5.3.6"
   }
 }
